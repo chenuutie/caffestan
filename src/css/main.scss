@@ -8,9 +8,14 @@
     background-size: contain;
     background-position: 50%;
 }
+.navbar{
+    justify-content: center !important;
+}
 .navbar .nav-item{
     color:#D4A474;
 }
+
+/* =========== home ============ */
 .home{
     display:flex;
     flex-direction: row;
@@ -45,15 +50,12 @@
 
     }
 
-    
-
     .more{
         text-decoration: none;
         color:#D4A474;
         
         &::after{
-            content:">";
-            
+            content:">";    
         }
         
     }
@@ -64,17 +66,22 @@
 .card-body p{
     color:#403936;
 }
-
+/* =========== footer ============ */
 footer{
     background-color:#D4A474;
     opacity: .5;
-    display:flex;
-    justify-self: center;
     height:50px;
+    line-height: 50px;
 
     p{
         font-size:16px;
         color:#403936;
       
     }
+}
+
+.jumbotron{
+    opacity: .6;
+ color:#ffffff;   
+ background-color:#D4A474 !important;
 }
